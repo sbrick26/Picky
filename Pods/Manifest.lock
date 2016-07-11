@@ -1,0 +1,46 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BDBOAuth1Manager (1.6.0):
+    - AFNetworking/NSURLConnection (~> 2.6.0)
+    - AFNetworking/NSURLSession (~> 2.6.0)
+  - OMGHTTPURLRQ/UserAgent (3.1.2)
+  - TDOAuth (1.1.2):
+    - OMGHTTPURLRQ/UserAgent
+  - YelpAPI (1.1.0):
+    - TDOAuth (~> 1.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - BDBOAuth1Manager (~> 1.6)
+  - YelpAPI
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  BDBOAuth1Manager: cd5a5872f355ca38180d52ca2dd844f0b0c84797
+  OMGHTTPURLRQ: 38316b56d88125c600bcdb16df8329147da2b0ee
+  TDOAuth: f7e356e834295b83c7b5066ee72a30f128c5f722
+  YelpAPI: 66b689666a3cd40d5acc3ae27f3787cd559e9f7d
+
+PODFILE CHECKSUM: 055149723d98527a193a56c9c863de58927ffa09
+
+COCOAPODS: 1.0.1

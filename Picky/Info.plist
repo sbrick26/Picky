@@ -30,6 +30,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Picky needs to stalk you</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Picky still needs to stalk you </string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

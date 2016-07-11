@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EDA0A9CFB3499AA5CBF1B4E /* Pods_Picky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E694CFD481AB081E728E3D64 /* Pods_Picky.framework */; };
+		C414A4101D2EFF7800CABE22 /* YelpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414A40F1D2EFF7800CABE22 /* YelpClient.swift */; };
+		C414A4121D2F0B0500CABE22 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = C414A4111D2F0B0500CABE22 /* Business.swift */; };
+		C414A4141D2FB84D00CABE22 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C414A4131D2FB84D00CABE22 /* MapKit.framework */; };
 		C43829801D2EEE4B0067430B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438297F1D2EEE4B0067430B /* AppDelegate.swift */; };
 		C43829821D2EEE4B0067430B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43829811D2EEE4B0067430B /* ViewController.swift */; };
 		C43829851D2EEE4B0067430B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C43829831D2EEE4B0067430B /* Main.storyboard */; };
 		C43829881D2EEE4B0067430B /* Picky.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C43829861D2EEE4B0067430B /* Picky.xcdatamodeld */; };
 		C438298A1D2EEE4B0067430B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43829891D2EEE4B0067430B /* Assets.xcassets */; };
 		C438298D1D2EEE4B0067430B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C438298B1D2EEE4B0067430B /* LaunchScreen.storyboard */; };
+		C43829951D2EEEB00067430B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43829941D2EEEB00067430B /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52E3FF56788BB2BB430CEB66 /* Pods-Picky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Picky.release.xcconfig"; path = "Pods/Target Support Files/Pods-Picky/Pods-Picky.release.xcconfig"; sourceTree = "<group>"; };
+		7AA049A90BCE510398EB4C2D /* Pods-Picky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Picky.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Picky/Pods-Picky.debug.xcconfig"; sourceTree = "<group>"; };
+		C414A40F1D2EFF7800CABE22 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
+		C414A4111D2F0B0500CABE22 /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		C414A4131D2FB84D00CABE22 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		C438297C1D2EEE4B0067430B /* Picky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C438297F1D2EEE4B0067430B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C43829811D2EEE4B0067430B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +34,8 @@
 		C43829891D2EEE4B0067430B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C438298C1D2EEE4B0067430B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C438298E1D2EEE4B0067430B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43829941D2EEEB00067430B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E694CFD481AB081E728E3D64 /* Pods_Picky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Picky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C414A4141D2FB84D00CABE22 /* MapKit.framework in Frameworks */,
+				7EDA0A9CFB3499AA5CBF1B4E /* Pods_Picky.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D8DCB54DC326528F15334D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AA049A90BCE510398EB4C2D /* Pods-Picky.debug.xcconfig */,
+				52E3FF56788BB2BB430CEB66 /* Pods-Picky.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B678FCCA70E9367112310132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C414A4131D2FB84D00CABE22 /* MapKit.framework */,
+				E694CFD481AB081E728E3D64 /* Pods_Picky.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C43829731D2EEE4B0067430B = {
 			isa = PBXGroup;
 			children = (
 				C438297E1D2EEE4B0067430B /* Picky */,
 				C438297D1D2EEE4B0067430B /* Products */,
+				05D8DCB54DC326528F15334D /* Pods */,
+				B678FCCA70E9367112310132 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,8 +91,11 @@
 			isa = PBXGroup;
 			children = (
 				C438297F1D2EEE4B0067430B /* AppDelegate.swift */,
+				C414A4111D2F0B0500CABE22 /* Business.swift */,
 				C43829811D2EEE4B0067430B /* ViewController.swift */,
+				C414A40F1D2EFF7800CABE22 /* YelpClient.swift */,
 				C43829831D2EEE4B0067430B /* Main.storyboard */,
+				C43829941D2EEEB00067430B /* Constants.swift */,
 				C43829891D2EEE4B0067430B /* Assets.xcassets */,
 				C438298B1D2EEE4B0067430B /* LaunchScreen.storyboard */,
 				C438298E1D2EEE4B0067430B /* Info.plist */,
@@ -74,9 +111,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C43829911D2EEE4B0067430B /* Build configuration list for PBXNativeTarget "Picky" */;
 			buildPhases = (
+				AD274231B39E480DC59C8B0E /* [CP] Check Pods Manifest.lock */,
 				C43829781D2EEE4B0067430B /* Sources */,
 				C43829791D2EEE4B0067430B /* Frameworks */,
 				C438297A1D2EEE4B0067430B /* Resources */,
+				5BA1081E630212EAB6F07C91 /* [CP] Embed Pods Frameworks */,
+				4F42076F51D3936C704579D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +174,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4F42076F51D3936C704579D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Picky/Pods-Picky-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BA1081E630212EAB6F07C91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Picky/Pods-Picky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD274231B39E480DC59C8B0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C43829781D2EEE4B0067430B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,6 +230,9 @@
 				C43829821D2EEE4B0067430B /* ViewController.swift in Sources */,
 				C43829801D2EEE4B0067430B /* AppDelegate.swift in Sources */,
 				C43829881D2EEE4B0067430B /* Picky.xcdatamodeld in Sources */,
+				C43829951D2EEEB00067430B /* Constants.swift in Sources */,
+				C414A4121D2F0B0500CABE22 /* Business.swift in Sources */,
+				C414A4101D2EFF7800CABE22 /* YelpClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +343,7 @@
 		};
 		C43829921D2EEE4B0067430B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA049A90BCE510398EB4C2D /* Pods-Picky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Picky/Info.plist;
@@ -263,6 +355,7 @@
 		};
 		C43829931D2EEE4B0067430B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52E3FF56788BB2BB430CEB66 /* Pods-Picky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Picky/Info.plist;
@@ -291,6 +384,7 @@
 				C43829931D2EEE4B0067430B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
